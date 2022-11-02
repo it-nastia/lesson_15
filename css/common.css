@@ -1,0 +1,69 @@
+
+/*==============BUTTONS===============*/
+.button{
+    display: inline-block;
+    background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+    border-radius: 4px;
+    font-weight: 700;
+    line-height: 1.25;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    padding: 14px 40px;
+    border: 2px solid transparent;
+    transition: all 0.3s ease-in-out;
+}
+.button:hover{
+    background: transparent;
+    border: 2px solid #FF3F3A;
+    color: #FF3F3A;
+    padding: 14px 40px;
+}
+
+.button--transparent{
+    background: transparent;
+    border: 2px solid #FF3F3A;
+    color: #FF3F3A;
+    transition: all 0.3s ease-in-out;
+}
+.button--transparent:hover, .button--transparent:active{
+    color: #FFFFFF;
+    background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+}
+
+
+
+/*================TITLE====================*/
+
+.heading {
+    color: #1E212C;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.headeing__subtitle {
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.heading__title {
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 1.3;   
+}
+
+
+/*==================LIST==============*/
+
+.list {
+    
+}
+.list__item {
+    padding-left: 32px;
+    background: url("../img/icons/check.svg") 0px 7px no-repeat;
+}
+.list__item:not(:last-child){
+    margin-bottom: 12px;
+}
